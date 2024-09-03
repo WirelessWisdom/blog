@@ -14,3 +14,4 @@ class BlogTest(TestCase):
         b = Blog('Test', 'Author')
 
         self.assertEqual(b.__repr__(), 'Test by Author (0 posts)')
+
